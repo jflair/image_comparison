@@ -3,6 +3,7 @@ import numpy as np
 from tkinter import Tk
 from tkinter.filedialog import askopenfilename
 
+# Reads in two images and opens a UI to overlay them with slider
 def overlay_image():
     # Create a window and trackbar for the slider
     cv2.namedWindow("Overlay")
